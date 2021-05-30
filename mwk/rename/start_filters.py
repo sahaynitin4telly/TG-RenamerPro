@@ -35,8 +35,6 @@ async def start_msg(c,m):
                         "🛠 Support Group", url=f"https://t.me/redbullfed")
                 ]
             ]
-        ),
-        reply_to_message_id=message.message_id
         )
     try:
        await m.reply_text(Translation.START_TEXT,quote=True,reply_markup=markup,disable_web_page_preview=True) 
