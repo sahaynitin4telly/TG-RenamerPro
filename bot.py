@@ -36,7 +36,7 @@ class Bot(Client):
             api_id=Config.APP_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.TG_BOT_TOKEN,
-            plugins={"mwk": "mwk/rename"},
+            plugins={"root": "mwk/rename"},
             sleep_threshold=5,
         )
 
