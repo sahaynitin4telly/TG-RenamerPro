@@ -1,8 +1,7 @@
 # TG-RenamerPro
 
-## Telegram's Sassiet Rename / File Converter Bot
-### A better rename and convert bot with upload mode option 
-and Auto File detection 😎!!
+#### Telegram's Sassiet Rename / File Converter Bot
+##### A better rename and convert bot with upload mode option and Auto File detection 😎!!
 
 ### Installation
 
