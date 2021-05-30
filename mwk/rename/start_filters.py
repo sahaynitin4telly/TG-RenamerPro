@@ -22,13 +22,22 @@ async def help_user(c,m):
         
 @Client.on_message(filters.command("start"))
 async def start_msg(c,m):
-        parse_mode="markdown",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "⚙ Updates Channel", url=f"https://t.me/movieworldkdY")],
-                [
+    button = [
+              [
+               InlineKeyboardButton("⚙ Updates Channel", url=f"https://t.me/movieworldkdY")],
+              [
+               InlineKeyboardButton(
+                        "👨‍🔬 Developer", url=f"https://t.me/shamilnelli")],
+              [ 
+               InlineKeyboardButton(
+                        "🛠 Support Group", url=f"https://t.me/redbullfed")],
+              ],
+    markup = InlineKeyboardMarkup(button) 
+    try:
+       await m.reply_text(Translation.START_TEXT,quote=True,reply_markup=markup,disable_web_page_preview=True) 
+    except Exception as e:
+        log.info(str(e))
+                
                     InlineKeyboardButton(
                         "👨‍🔬 Developer", url=f"https://t.me/shamilnelli"), 
                     InlineKeyboardButton(
