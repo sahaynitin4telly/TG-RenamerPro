@@ -1,0 +1,57 @@
+{
+  "name": "TG-RenameBot",
+  "description": "Telegram's Saassiest Ultra Pro Rename Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "Rename",
+    "Convert",
+    "Caption"
+  ],
+  "website": "https://github.com/shamilhabeebnelli",
+  "repository": "https://github.com/shamilhabeebnelli/TG-RenamerPRO",
+  "logo": "https://telegra.ph/file/b4a84dedbd9eeb2a54dff.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, Get it from @Botfather.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Owner userid to use for getting logs..",
+      "value": ""
+    },
+    "OWNER_USERNAME": {
+      "description": "(Optional)Owners username to use at start msg button..",
+      "required": false
+    },
+    "CUSTOM_CAPTION": {
+      "description": "(Optional)Custom caption to be added after file name in caption",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
