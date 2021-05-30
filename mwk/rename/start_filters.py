@@ -36,10 +36,6 @@ async def start_msg(c,m):
                 ]
             ]
         )
-    try:
-       await m.reply_text(Translation.START_TEXT,quote=True,reply_markup=markup,disable_web_page_preview=True) 
-    except Exception as e:
-        log.info(str(e))
 
         
 @Client.on_message(filters.command("log") & filters.private & filters.user(Config.OWNER_ID))
