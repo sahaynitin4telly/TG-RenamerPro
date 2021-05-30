@@ -25,12 +25,12 @@ async def start_msg(c,m):
     button = [
                [
                 InlineKeyboardButton(
-                        "⚙ Updates Channel", url=f"https://t.me/mwklinks"),
+                        ""⚙ Updates Channel", url=f"https://t.me/mwklinks"),
                     InlineKeyboardButton(
                         "🛠 Support Group", url=f"https://t.me/redbullfed")
                 ],[
                     InlineKeyboardButton(
-                        "👨‍🔬 Developer", url=f"https:t.me/shamilnelli")
+                        "👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
                 ]
             ]
     markup = InlineKeyboardMarkup(button) 
