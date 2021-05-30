@@ -28,10 +28,6 @@
       "description": "Owner userid to use for getting logs..",
       "value": ""
     },
-    "OWNER_USERNAME": {
-      "description": "(Optional)Owners username to use at start msg button..",
-      "required": false
-    },
     "CUSTOM_CAPTION": {
       "description": "(Optional)Custom caption to be added after file name in caption",
       "required": false
