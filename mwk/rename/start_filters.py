@@ -31,7 +31,7 @@ async def start_msg(c,m):
               [ 
                InlineKeyboardButton(
                         "🛠 Support Group", url=f"https://t.me/redbullfed")],
-              ],
+              ]
     markup = InlineKeyboardMarkup(button) 
     try:
        await m.reply_text(Translation.START_TEXT,quote=True,reply_markup=markup,disable_web_page_preview=True) 
