@@ -24,14 +24,16 @@ async def help_user(c,m):
 async def start_msg(c,m):
     button = [
               [
-               InlineKeyboardButton("⚙ Updates Channel", url=f"https://t.me/movieworldkdY")],
-              [
                InlineKeyboardButton(
-                        "👨‍🔬 Developer", url=f"https://t.me/shamilnelli")],
-              [ 
+                  "⚙ Updates Channel", url=f"https://t.me/mwklinks"),
+             ],[
                InlineKeyboardButton(
-                        "🛠 Support Group", url=f"https://t.me/redbullfed")],
+                        "🛠 Support Group", url=f"https://t.me/redbullfed")
+             ],[ 
+               InlineKeyboardButton(
+                        "👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
               ]
+           ]
     markup = InlineKeyboardMarkup(button) 
     try:
        await m.reply_text(Translation.START_TEXT,quote=True,reply_markup=markup,disable_web_page_preview=True) 
