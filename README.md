@@ -73,6 +73,5 @@ python3 bot.py
 * Pull Requests are always accepted but shouldn't involve increasing complexity of deploying
 
 ## Credits 
-* Specdie as always ❤️
-* Mr Vishal 2k2 , Abir 
+* Mr Vishal 2k2 , Heiman, Spechide
 * And everyone in this Journey
