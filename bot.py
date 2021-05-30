@@ -50,5 +50,5 @@ class Bot(Client):
         log.info("<<[Bot Stopped]>>")
 
 app = Bot()
-Bot.run()
+app.run()
 
