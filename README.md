@@ -28,11 +28,13 @@ Use [Rename Robot](https://telegram.dog/mwk_renamebot)
 #### Hard Way (VPS)
 * This is just a demo of commands to use
 
+```
 git clone https://github.com/shamilhabeebnelli/TG-RenamerPRO
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 python3 bot.py
+```
 
 * Language: [Python3](https://www.python.org)
 * Library: [Pyrogram](https://docs.pyrogram.org)
