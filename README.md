@@ -24,7 +24,7 @@ python3 bot.py
 * Library: [Pyrogram](https://docs.pyrogram.org)
 
 ### Developer 
-* Telegram [Shamik Habeeb](https://t.me/shamilnelli) 
+* Telegram [Shamil Habeeb](https://t.me/shamilnelli) 
 * You can checkout my bots At [MwK Projects](https://t.me/mwklinks)
  
 
@@ -62,7 +62,7 @@ python3 bot.py
 <a href="https://github.com/ShamilHabeebnelli"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <p align="left">
-<a href="https://instagram.com/_shamil.habeeb_"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Twitter-informational.svg?logo=instagram"></a>
+<a href="https://instagram.com/_shamil.habeeb_"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-informational.svg?logo=instagram"></a>
 </p>
 
 ## All rights reserved !!
@@ -73,5 +73,5 @@ python3 bot.py
 * Pull Requests are always accepted but shouldn't involve increasing complexity of deploying
 
 ## Credits 
-* Mr Vishal 2k2 , Heiman, Spechide
+* Alber Einstein Tg, Heiiman, Spechide
 * And everyone in this Journey
