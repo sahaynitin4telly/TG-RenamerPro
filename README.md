@@ -3,6 +3,18 @@
 #### Telegram's Sassiet Rename / File Converter Bot
 ##### A better rename and convert bot with upload mode option and Auto File detection 😎!!
 
+###### • What's new?
+
+- [New] Auto File Detection 
+- [New] No Need Of Extention Adding
+- [New] Upload Speed Increased
+- [New] Uploades As your cHoises through Buttons
+- [New] Rename File as Dfile  
+- [New] Rename File as Streamable Video
+- [New] Permanant Thumbnail Support
+- [New] Convert File to Stream Video
+- [New] Convert Video To DFile
+
 ### Installation
 
 #### Easy Way 
