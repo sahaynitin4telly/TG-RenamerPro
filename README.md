@@ -10,6 +10,7 @@ Use [Rename Robot](https://telegram.dog/mwk_renamebot)
 
 #### The Simple Way
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+####### While deplying on heroku kindly add buildback of ffmpeg
 
 #### Hard Way (VPS)
 * This is just a demo of commands to use
