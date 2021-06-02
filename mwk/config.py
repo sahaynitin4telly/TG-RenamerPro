@@ -9,3 +9,5 @@ class Config(object):
   DB_URI = os.environ.get("DATABASE_URL", "")
   OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "").split(" ")]
   CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION",False)
+# Update channel for Force Subscribe
+  UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
