@@ -22,7 +22,7 @@ async def help_user(c,m):
         
 @Client.on_message(filters.command("start"))
 async def start_msg(c,m):
-update_channel = mwk.config.Config.UPDATE_CHANNEL
+update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
