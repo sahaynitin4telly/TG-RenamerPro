@@ -31,7 +31,7 @@ async def start_msg(c,m):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
-            user = await c.get_chat_member(update_channel, update.chat.id)
+            user = await c.get_chat_member(update_channel, m.chat.id)
             if user.status == "kicked":
                await m.reply_text("🤭 Sorry Dude, You are **B A N N E D**. If you feel You are not guilty please contact owner")
                return
@@ -43,7 +43,7 @@ async def start_msg(c,m):
               ])
             )
             return
-    await m.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
+    await m.reply_text(Translation.START_TEXT.format(m.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
                [
