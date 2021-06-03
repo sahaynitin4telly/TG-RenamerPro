@@ -35,6 +35,10 @@ virtualenv -p /usr/bin/python3 venv
 pip install -r requirements.txt
 python3 bot.py
 ```
+## Credits 
+* Alber Einstein Tg - For Pyro tips
+* Heiiman For Force Sub
+* And everyone in this Journey
 
 * Language: [Python3](https://www.python.org)
 * Library: [Pyrogram](https://docs.pyrogram.org)
@@ -87,8 +91,3 @@ python3 bot.py
 * Good to see if you give me credits if you are using !!
 * This is only for personal use !! Don't make a Bot channel Business with this !!
 * Pull Requests are always accepted but shouldn't involve increasing complexity of deploying
-
-## Credits 
-* Alber Einstein Tg - For Pyro tips
-* Heiiman For Force Sub, Spechide
-* And everyone in this Journey
