@@ -89,5 +89,6 @@ python3 bot.py
 * Pull Requests are always accepted but shouldn't involve increasing complexity of deploying
 
 ## Credits 
-* Alber Einstein Tg, Heiiman, Spechide
+* Alber Einstein Tg - For Pyro tips
+* Heiiman For Force Sub, Spechide
 * And everyone in this Journey
