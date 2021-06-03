@@ -9,4 +9,4 @@ class Config(object):
   DB_URI = os.environ.get("DATABASE_URL", "")
   OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "").split(" ")]
   CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION",False)
-  UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "mwklinks")
+  UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
