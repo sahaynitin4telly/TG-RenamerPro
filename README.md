@@ -36,25 +36,25 @@ pip install -r requirements.txt
 python3 bot.py
 ```
 ## Credits 
-* Alber Einstein Tg - For Pyro tips
-* Heiiman For Force Sub
+* [Alber Einstein Tg](https://telegram.dog/AlbertEinstein_TG/) - For Pyro tips
+* [Heiman Creation](https://telegram.dog/HeimanCreation/) For Force Sub
 * And everyone in this Journey
 
 * Language: [Python3](https://www.python.org)
 * Library: [Pyrogram](https://docs.pyrogram.org)
 
 ### Developer 
-* Telegram [Shamil Habeeb](https://t.me/shamilnelli) 
-* You can checkout my bots At [MwK Projects](https://t.me/mwklinks)
+* Telegram [Shamil Habeeb](https://telegram.dog/shamilnelli) 
+* You can checkout my bots At [MwK Projects](https://telegram.dog/mwklinks)
  
 
 #### Required Variables
 
 * `TG_BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `APP_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
- You can also get it from [UseTGXBot](https://t.me/UseTGXBot)
+ You can also get it from [UseTGXBot](https://telegram.dog/UseTGXBot)
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
- You can also get it from [UseTGXBot](https://t.me/UseTGXBot)
+ You can also get it from [UseTGXBot](https://telegram.dog/UseTGXBot)
 * `OWNER_ID`: Owner's Userid for log command
 * `CUSTOM_CAPTION`: Custom Caption to use after Filename in caption
 
@@ -73,9 +73,9 @@ python3 bot.py
 
 ### Support:
 * Join MwK Projects channel
-<a href="https://t.me/mwklinks"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://telegram.dog/mwklinks"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 * Join Support Group
-<a href="https://t.me/redbullfed"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://telegrsm.dog/redbullfed"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Follow on:
 <p align="left">
