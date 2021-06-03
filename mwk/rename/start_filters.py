@@ -29,20 +29,19 @@ async def start_msg(c,m):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
-            user = await bot.get_chat_member(update_channel, update.chat.id)
+            user = await c.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text("🤭 Sorry Dude, You are **B A N N E D**. If you feel You are not guilty please contact @HeimanTGBotSupport_bot")
+               await m.reply_text("🤭 Sorry Dude, You are **B A N N E D**. If you feel You are not guilty please contact owner")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
-            await update.reply_text(
+            await m.reply_text(
                 text="**Join My Updates Channel to use me & Enjoy the Free Service**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
-    await update.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
+    await m.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
                [
@@ -54,7 +53,7 @@ async def start_msg(c,m):
                 ]
             ]
         ),
-        reply_to_message_id=update.message_id
+        reply_to_message_id=m.message_id
     )
           #  return
         
