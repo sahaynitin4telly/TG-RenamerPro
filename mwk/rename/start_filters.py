@@ -21,6 +21,21 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @Client.on_message(filters.command("help"))
 async def help_user(c,m):
+    update_channel = Config.UPDATE_CHANNEL
+    if update_channel:
+        try:
+            user = await c.get_chat_member(update_channel, m.chat.id)
+            if user.status == "kicked":
+               await m.reply_text("🤭 Sorry Dude, You are **B A N N E D**. If you feel You are not guilty please contact owner")
+               return
+        except UserNotParticipant:
+            await m.reply_text(
+                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                reply_markup=InlineKeyboardMarkup([
+                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+              ])
+            )
+            return
     try:
        await m.reply_text(Translation.HELP_USER,quote=True)
     except Exception as e:
