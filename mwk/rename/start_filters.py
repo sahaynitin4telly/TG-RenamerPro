@@ -7,6 +7,8 @@ log = logging.getLogger(__name__)
 from pyrogram import Client,filters
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 from mwk.config import Config
+else:
+    from config import Config
 from mwk.messages import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
