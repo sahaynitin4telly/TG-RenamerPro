@@ -17,8 +17,6 @@ log = logging.getLogger(__name__)
 
 @Client.on_message(filters.document | filters.video | filters.audio | filters.voice | filters.video_note | filters.animation) 
 async def rename_filter(c,m):
-  media = m.document or m.video or m.audio or m.voice or m.video_note or m.animation
-  text = ""
   update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
@@ -34,6 +32,8 @@ async def rename_filter(c,m):
               ])
             )
             return
+  media = m.document or m.video or m.audio or m.voice or m.video_note or m.animation
+  text = ""
   button = []
   try:
     filename = media.file_name
