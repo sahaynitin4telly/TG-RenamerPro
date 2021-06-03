@@ -31,6 +31,10 @@
     "CUSTOM_CAPTION": {
       "description": "(Optional)Custom caption to be added after file name in caption",
       "required": false
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Force Users to join channel",
+      "required": true
     }
   },
   "addons": [
