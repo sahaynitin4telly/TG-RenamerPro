@@ -6,6 +6,8 @@ log = logging.getLogger(__name__)
 
 from pyrogram import Client,filters
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
+from pyrogram.errors import UserNotParticipant
+
 if bool(os.environ.get("WEBHOOK", False)):
     from mwk.config import Config
 else:
