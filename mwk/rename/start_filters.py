@@ -44,21 +44,19 @@ async def start_msg(c,m):
             return
     await update.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
-        [
+            [
                [
-                InlineKeyboardButton(
-                        "⚙ Updates Channel", url=f"https://t.me/mwklinks"),
-                    InlineKeyboardButton(
-                        "🛠 Support Group", url=f"https://t.me/redbullfed")
-                ],[
-                    InlineKeyboardButton(
-                        "👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
+                InlineKeyboardButton("⚙ Updates Channel", url=f"https://t.me/mwklinks"),
+                    InlineKeyboardButton("🛠 Support Group", url=f"https://t.me/redbullfed")
+                ],
+                [
+                    InlineKeyboardButton("👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
                 ]
             ]
         ),
-    reply_to_message_id=update.message_id
+        reply_to_message_id=update.message_id
     )
-            return
+          #  return
         
 @Client.on_message(filters.command("log") & filters.private & filters.user(Config.OWNER_ID))
 async def log_msg(c,m):
