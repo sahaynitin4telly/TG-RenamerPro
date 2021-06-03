@@ -32,9 +32,9 @@ async def rename_filter(c,m):
               ])
             )
             return
-    media = m.document or m.video or m.audio or m.voice or m.video_note or m.animation
-    text = ""
-    button = []
+  media = m.document or m.video or m.audio or m.voice or m.video_note or m.animation
+  text = ""
+  button = []
     try:
       filename = media.file_name
       text += f"FileName:\n{filename}\n"
