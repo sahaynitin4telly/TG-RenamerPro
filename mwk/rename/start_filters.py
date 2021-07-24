@@ -76,9 +76,9 @@ async def start_msg(c,m):
         
 @Client.on_message(filters.command("log") & filters.private & filters.user(Config.OWNER_ID))
 async def log_msg(c,m):
-  z =await m.reply_text("Processing..", True)
+  z =await m.reply_text("**👀 Processing...**", True)
   if os.path.exists("Log.txt"):
      await m.reply_document("Log.txt", True)
      await z.delete()
   else:
-    await z.edit_text("Log file not found")
+    await z.edit_text("**👀 Log file not found**")
