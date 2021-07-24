@@ -83,7 +83,7 @@ async def show_thumbnail(c,m):
         await m.reply_photo(
         photo=thumb_image_path,
         caption="**__🖼️ Your Custom Thumbnail...👆🏻__**",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🗑️ Delete Thumbnail", callback_data="delete"), 
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🗑️ Delete Thumbnail", callback_data="delete")]]), 
         quote=True
     )
 
