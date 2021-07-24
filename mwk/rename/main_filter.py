@@ -28,7 +28,7 @@ async def rename_filter(c,m):
             await m.reply_text(
                 text="**Join My Updates Channel to use me & Enjoy the Free Service**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="👀 Join Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -37,12 +37,12 @@ async def rename_filter(c,m):
   button = []
     try:
       filename = media.file_name
-      text += f"FileName:\n{filename}\n"
+      text += f"**File Name: {filename}**\n\n"
     except:
     # some files dont gib name ..
       filename = None 
     
-    text += "Select the desired Option"
+    text += "✅ Select The Desired Options From Below...! 👀"
     button.append([InlineKeyboardButton("📂 Rename as File 📂", callback_data="rename_file")])
   # Thanks to albert for mime_type suggestion 
     if media.mime_type.startswith("video/"):
@@ -50,7 +50,7 @@ async def rename_filter(c,m):
       button.append([InlineKeyboardButton("🎞️ Rename as Video 🎞️",callback_data="rename_video")])
       button.append([InlineKeyboardButton("🎞️ Convert to File 📂",callback_data="convert_file")])
       button.append([InlineKeyboardButton("📂 Convert to Video 🎞️",callback_data="convert_video")])
-    button.append([InlineKeyboardButton("Cancel ❌",callback_data="cancel")])
+    button.append([InlineKeyboardButton("✖️ Cancel Process ✖️",callback_data="cancel")])
  
     markup = InlineKeyboardMarkup(button)
     try:
