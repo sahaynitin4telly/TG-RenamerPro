@@ -5,8 +5,8 @@ class Translation(object):
 Also Configure the Settings for best experience...
 Check Below Buttons for more :
 
-🤖 Developer : [Ravi Teja](https://t.me/MeRaviTeja)**
-__© Coded By [Animesh](https://t.me/Animesh941) ❤️__
+🤖 Developer : [Dk Botz](https://t.me/dkbotz)**
+__© Coded By [Dk Botz](https://t.me/dkbotz) ❤️__
 """
 ######################
     HELP_USER = """**1 >>Send File/Video\n2 >>Choose Your desired Option\n3 >>Wait for it to process files**"""
